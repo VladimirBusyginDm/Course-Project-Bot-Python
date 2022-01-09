@@ -4,5 +4,3 @@ import config
 
 bot = Bot(token=config.ACCESS_TOKEN)
 dispatcher = Dispatcher(bot, storage=MemoryStorage())
-
-#я дэч
